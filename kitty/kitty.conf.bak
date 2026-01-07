@@ -1,0 +1,198 @@
+# vim:fileencoding=utf-8:foldmethod=marker
+
+font_size 18.0
+
+disable_ligatures cursor
+
+# modify_font underline_position 2
+
+# undercurl_style thick-sparse
+
+# url_style double
+
+# placement_strategy top
+
+# hide_window_decorations no
+
+# allow_remote_control socket-only
+
+# listen_on unix:~/.config/kitty/kitty.sock
+
+# shell_integration enabled
+
+# # Disable cmd+enter because I keep hitting it by accident
+# map cmd+enter
+
+# # Alt+shift+left click to handle links even when terminal has mouse grabbed
+# mouse_map <%= variables.kittyAlt %>+shift+left release grabbed,ungrabbed mouse_handle_click link
+
+# # Discard press event for link click
+# mouse_map <%= variables.kittyAlt %>+shift+left press grabbed discard_event
+
+# # Disable cmd+, because I keep hitting it by accident
+# map cmd+,
+
+# repaint_delay 2
+# input_delay 0
+# sync_to_monitor no
+
+# enable_audio_bell no
+
+# # Send <F6> for Ctrl-i in Neovim
+# map ctrl+i send_text application \x1b[17~
+
+# Default color scheme
+# include colors/classic-dark.conf
+
+
+# vim:ft=kitty
+
+## name:     base16 Classic Dark
+## author:   Jason Heeris (http://heeris.id.au)
+## license:  MIT
+## upstream: https://github.com/tinted-theming/tinted-kitty
+## blurb:    (no description provided)
+
+# Scheme name: base16 Classic Dark
+# Scheme author: Jason Heeris (http://heeris.id.au)
+# Template author: Tinted Theming (https://github.com/tinted-theming/tinted-kitty)
+
+# The basic colors
+# background #151515
+# foreground #D0D0D0
+# selection_background #D0D0D0
+# selection_foreground #151515
+
+# Cursor colors
+# cursor #D0D0D0
+# cursor_text_color #151515
+
+# URL underline color when hovering with mouse
+# url_color #B0B0B0
+
+# Kitty window border colors
+# active_border_color #505050
+# inactive_border_color #202020
+
+# OS Window titlebar colors
+# wayland_titlebar_color #151515
+# macos_titlebar_color #151515
+
+# Tab bar colors
+# active_tab_background #151515
+# active_tab_foreground #D0D0D0
+# inactive_tab_background #202020
+# inactive_tab_foreground #B0B0B0
+# tab_bar_background #202020
+
+# The 16 terminal colors
+# normal
+# color0 #151515
+# color1 #AC4142
+# color2 #90A959
+# color3 #F4BF75
+# color4 #6A9FB5
+# color5 #AA759F
+# color6 #75B5AA
+# color7 #D0D0D0
+
+# bright
+# color8 #303030
+# color9 #AC4142
+# color10 #90A959
+# color11 #F4BF75
+# color12 #6A9FB5
+# color13 #AA759F
+# color14 #75B5AA
+# color15 #F5F5F5
+
+# extended base16 colors
+# color16 #D28445
+# color17 #8F5536
+# color18 #202020
+# color19 #303030
+# color20 #B0B0B0
+# color21 #E0E0E0
+
+
+# vim:ft=kitty
+
+## name:     base16 Colors
+## author:   mrmrs (http://clrs.cc)
+## license:  MIT
+## upstream: https://github.com/tinted-theming/tinted-kitty
+## blurb:    (no description provided)
+
+# Scheme name: base16 Colors
+# Scheme author: mrmrs (http://clrs.cc)
+# Template author: Tinted Theming (https://github.com/tinted-theming/tinted-kitty)
+
+# The basic colors
+# background #111111
+# foreground #bbbbbb
+# selection_background #bbbbbb
+# selection_foreground #111111
+
+# Cursor colors
+# cursor #bbbbbb
+# cursor_text_color #111111
+
+# URL underline color when hovering with mouse
+# url_color #999999
+
+# Kitty window border colors
+# active_border_color #777777
+# inactive_border_color #333333
+
+# OS Window titlebar colors
+# wayland_titlebar_color #111111
+# macos_titlebar_color #111111
+
+# Tab bar colors
+# active_tab_background #111111
+# active_tab_foreground #bbbbbb
+# inactive_tab_background #333333
+# inactive_tab_foreground #999999
+# tab_bar_background #333333
+
+# The 16 terminal colors
+# normal
+# color0 #111111
+# color1 #ff4136
+# color2 #2ecc40
+# color3 #ffdc00
+# color4 #0074d9
+# color5 #b10dc9
+# color6 #7fdbff
+# color7 #bbbbbb
+
+# bright
+# color8 #555555
+# color9 #ff4136
+# color10 #2ecc40
+# color11 #ffdc00
+# color12 #0074d9
+# color13 #b10dc9
+# color14 #7fdbff
+# color15 #ffffff
+
+# extended base16 colors
+# color16 #ff851b
+# color17 #85144b
+# color18 #333333
+# color19 #555555
+# color20 #999999
+# color21 #dddddd
+include themes/oscura.conf
+include themes/oscura-dusk.conf
+
+
+# BEGIN_KITTY_THEME
+# Oscura
+include current-theme.conf
+# END_KITTY_THEME
+
+
+map ctrl+b launch --location=split btop
+# map ctrl+g launch --location=vsplit --cwd=current lazygit
+map ctrl+g launch --location=split --cwd=current lazygit

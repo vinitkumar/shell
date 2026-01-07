@@ -1,0 +1,26 @@
+# Font Configuration
+font-family = "PragmataPro Mono"
+font-size = 18
+font-feature = liga
+font-feature = calt
+
+# Text rendering
+bold-is-bright = true
+adjust-cell-height = 10%
+
+background-blur-radius = 20
+# theme = "Monokai Pro Ristretto"
+theme = "Everforest Dark Hard"
+cursor-color = #928374
+# background = #1d2021
+background-opacity = 0.9
+cursor-style = block
+cursor-style-blink = true
+
+unfocused-split-opacity = 0.97
+
+
+# Keybindings
+# Open btop in horizontal split pane (Ctrl+Shift+B)
+# install tip by default
+auto-update-channel = tip
