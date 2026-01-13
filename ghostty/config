@@ -1,5 +1,5 @@
 # Font Configuration
-font-family = "PragmataPro Mono"
+# font-family = "JetBrains Mono"
 font-size = 18
 font-feature = liga
 font-feature = calt
@@ -24,3 +24,10 @@ unfocused-split-opacity = 0.97
 # Open btop in horizontal split pane (Ctrl+Shift+B)
 # install tip by default
 auto-update-channel = tip
+
+
+font-family = "Victor Mono"
+font-family-bold = "Monaspace Neon Var"
+font-family-italic = "Operator Mono SSm Lig"
+font-family-bold-italic = "Operator Mono SSm Lig"
+font-thicken = true
