@@ -1,5 +1,8 @@
 # Font Configuration
 # font-family = "JetBrains Mono"
+font-size = 18
+font-feature = liga
+font-feature = calt
 
 # Text rendering
 bold-is-bright = true
@@ -7,7 +10,7 @@ adjust-cell-height = 10%
 
 background-blur-radius = 20
 # theme = "Monokai Pro Ristretto"
-theme = "Solarized Osaka Night"
+theme = "Everforest Dark Hard"
 cursor-color = #928374
 # background = #1d2021
 background-opacity = 0.9
@@ -23,14 +26,8 @@ unfocused-split-opacity = 0.97
 auto-update-channel = tip
 
 
-
-# Font Configuration - Comic Code Ligatures
-font-family = "Comic Code Ligatures"
-font-family-bold = "Comic Code Ligatures"
-font-family-italic = "Comic Code Ligatures"
-font-family-bold-italic = "Comic Code Ligatures"
-font-size = 15
-font-feature = liga
-font-feature = calt
-font-feature = clig
-font-thicken = false
+font-family = "Victor Mono"
+font-family-bold = "Monaspace Neon Var"
+font-family-italic = "Operator Mono SSm Lig"
+font-family-bold-italic = "Operator Mono SSm Lig"
+font-thicken = true

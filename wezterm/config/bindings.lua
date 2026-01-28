@@ -49,8 +49,8 @@ local keys = {
    { key = 'Backspace',  mods = mod.SUPER,     action = act.SendString '\u{15}' },
 
    -- copy/paste --
-   { key = 'c',          mods = 'CTRL|SHIFT',  action = act.CopyTo('Clipboard') },
-   { key = 'v',          mods = 'CTRL|SHIFT',  action = act.PasteFrom('Clipboard') },
+   { key = 'c',          mods = mod.SUPER,     action = act.CopyTo('Clipboard') },
+   { key = 'v',          mods = mod.SUPER,     action = act.PasteFrom('Clipboard') },
 
    -- tabs --
    -- tabs: spawn+close
@@ -233,10 +233,10 @@ local key_tables = {
 }
 
 local mouse_bindings = {
-   -- Ctrl-click will open the link under the mouse cursor
+   -- Cmd-click will open the link under the mouse cursor
    {
       event = { Up = { streak = 1, button = 'Left' } },
-      mods = 'CTRL',
+      mods = 'SUPER',
       action = act.OpenLinkAtMouseCursor,
    },
 }
